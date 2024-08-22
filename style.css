@@ -1,0 +1,42 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the form */
+.Typebox {
+  background-color: #ba1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+/* Individual form fields */
+.Type {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.Type label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/*footer{
+  display: flex;
+  justify-self: flex-end;
+  width: 100%;
+  height: 30px;
+  background-color: #2422bd;
+  bottom: 0;
+}
